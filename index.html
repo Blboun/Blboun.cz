@@ -8,9 +8,18 @@
 <h1>Blboun.cz</h1>
 <img src="https://1gr.cz/fotky/idnes/18/031/r7/KUZ71c364_google_sound_maker.PNG" alt="obr">
 <script>
-  {
-  console.log("Ahoj!");
-  }
+ var datum = new Date(); // aktuální datum
+var denVTydnu = new Array("neděle","pondělí", "úterý", "středa", "čtvrtek", "pátek", "sobota");
+var retezec = "Dnes je "; // postupně se k němu budou přičítat další řetězce
+retezec += denVTydnu[datum.getDay()] + ", "; // Den v týdnu
+retezec += datum.getDate() + ". "; // Den v měsíci
+retezec += (1 + datum.getMonth()) + ". "; // Měsíce jsou číslovány od nuly
+retezec += datum.getFullYear() + ". "; // Rok ve formátu 0000
+retezec += "Čas: " + datum.getHours() + ":"; // Hodiny
+retezec += datum.getMinutes(); // Minuty
+// retezec += ":" + datum.getSeconds(); // Sekundy
+retezec += "."; // Tečka za větou
+console.log( retezec ); // Výpis řetězce do dokumentu
   </script>
 </body>
 </html>
