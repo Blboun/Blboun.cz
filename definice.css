@@ -7,7 +7,7 @@ body {
   background-color: blue;
 }
 .pgic {
-position: absolute; left: 400px; top: 150px;
+position: absolute; left: 400px; top: 100px;
 }
 h2 {
 text-align: center;
@@ -29,3 +29,19 @@ p {
 color:rgb(0,255,153)}
 .UFO {
 width:500px;}
+.ZT {
+width: 500px;
+height:120px;
+position: absolute; left:700px;top:500px;
+background-color: rgb(115,115,115);
+color: rgb(240,255,32);  
+}
+.Nej {
+width:600px;
+height:520px;
+position:absolute; left:1250px; top:475px;}
+.NEJ {
+width:600px;
+}
+a, a:link, a:hover {
+color:rgb(255,255,255);}
