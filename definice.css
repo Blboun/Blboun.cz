@@ -24,4 +24,5 @@ p>b {
 }
 .FFF {
 width:100px;
+position: absolute; left:100px; top:20px;
 }
