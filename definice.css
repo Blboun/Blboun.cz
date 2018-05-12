@@ -26,3 +26,33 @@ p>b {
 width:100px;
 position: absolute; left:400px; top:120px;
 }
+
+@media only screen and (max-device-width: 480px) {
+	body {
+	widht:460px;
+	background-color: black;
+	}
+	h1 {
+	color:lime;
+	text-decoraation: underline;
+	}
+	h2 {
+	color: rgb(153,0,255);
+	}
+	p {
+	color: rgb(0,0,0)
+	}
+	p>b {
+	color:red;
+	text-decoration:underline;
+	}
+	image {
+	width:460px; 
+	height:263px;
+	border: solid black 1px;
+	}
+	.FFF {
+	width:100px;
+	position: absolute; left:200px; top:60px;
+	}
+}
