@@ -15,4 +15,4 @@ PRIMARY KEY, nazav TEXT, poznamka TEXT)", [],
 function(){ alert("tabulka Poznamky byla uspesne vytvorena!" );},
 function(tx, chyba){ alert(chyba.message); } );
 });
-}
+};
