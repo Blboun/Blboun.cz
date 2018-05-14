@@ -6,11 +6,10 @@
 <link rel="stylesheet" type="text/css" href="definice.css">
 </head>
 <body>
-<? if ( Mail("cyrdapc@gmail.com", $predmet, $zprava, "From: " . $mail_odesilatele) )
+
+<form action="<? if ( Mail("cyrdapc@gmail.com", $predmet, $zprava, "From: " . $mail_odesilatele) )
 echo "Mail byl odeslán";
-else echo "Mail se nepodařilo odeslat"; ?>
-	
-<form action="mail">
+else echo "Mail se nepodařilo odeslat"; ?>">
 Váš mail: <input name="mail_odesilatele"><br>
 Předmět: <input name="predmet"><br>
 Zpráva: <textarea name="zprava"></textarea><br>
