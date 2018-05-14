@@ -40,7 +40,7 @@ position: absolute; left:400px; top:120px;
 	color: rgb(153,0,255);
 	}
 	p {
-	color: rgb(0,0,0)
+	color: white;
 	}
 	p>b {
 	color:red;
