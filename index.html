@@ -6,10 +6,12 @@
 <link rel="stylesheet" type="text/css" href="definice.css">
 </head>
 <body>
-<? 
-mail("CyFa@email.cz", "Svobodu Tibetu", "Chinese go home!");
-echo "<p>Zpráva byla odeslána</p>"
-?>	
+<form action="druhy.php">
+Váš mail: <input name="mail_odesilatele"><br>
+Předmět: <input name="predmet"><br>
+Zpráva: <textarea name="zprava"></textarea><br>
+<input type=submit value="Odeslat">
+</form>	
 	<fieldset class="FFF">
 	<h1>Blboun.cz</h1>
 	<h2>Ročník 1, Číslo:I</h2>
